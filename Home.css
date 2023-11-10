@@ -1,0 +1,41 @@
+Home.css
+
+.home {
+    position: relative;
+    background-color: #000; 
+    color: #fff;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .textDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hometitle {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .smallText {
+    font-size: 18px;
+    line-height: 1.4;
+}
